@@ -10,3 +10,14 @@ description: text
 -description must be present
 -description must be between 20 and 500 characters
 -chef_id must be present
+
+
+testing spec for chefs:
+chefname: string
+email: string
+
+-chefname must be present
+-chefname must be between 3 characters and less than 40 characters
+-email must be present
+-email must be unique
+-email must be valid
